@@ -1,7 +1,7 @@
 # gocode-login
 
 ## About
-Student database system allowing the students to log in and out when they come and leave a location. Ideal to run on iPads/tablets
+Student database system with docker support allowing the students to log in and out when they come and leave a location. Ideal to run on iPads/tablets. Installation guide at end. 
 
 ## Setup
 
@@ -41,6 +41,7 @@ You will need to create a new table called gocode in a MySQL or MariaDB database
 
 #### PHP Source
 The source php files are found at `./php/src/...` These must be copied to your webroot. You must also have some HTTP server with PHP execution software such as Apache or Nginx with php-fpm. 
+<<<<<<< HEAD
 
 ## Screenshots
 ### User Inerface
@@ -56,3 +57,5 @@ The source php files are found at `./php/src/...` These must be copied to your w
 ![ScreenShot8](/screenshots/8.png)
 ![ScreenShot9](/screenshots/9.png)
 ![ScreenShot10](/screenshots/10.png)
+=======
+>>>>>>> a4325318defa94b2fcbb2379f520e615b365a883
