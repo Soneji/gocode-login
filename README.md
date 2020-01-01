@@ -3,21 +3,6 @@
 ## About
 Student database system allowing the students to log in and out when they come and leave a location. Ideal to run on iPads/tablets
 
-## Screenshots
-### User Inerface
-![ScreenShot1](/screenshots/1.png)
-![ScreenShot2](/screenshots/2.png)
-![ScreenShot3](/screenshots/3.png)
-![ScreenShot4](/screenshots/4.png)
-![ScreenShot11](/screenshots/11.png)
-### Admin Panel
-![ScreenShot5](/screenshots/5.png)
-![ScreenShot6](/screenshots/6.png)
-![ScreenShot7](/screenshots/7.png)
-![ScreenShot8](/screenshots/8.png)
-![ScreenShot9](/screenshots/9.png)
-![ScreenShot10](/screenshots/10.png)
-
 ## Setup
 
 ### Docker
@@ -56,3 +41,18 @@ You will need to create a new table called gocode in a MySQL or MariaDB database
 
 #### PHP Source
 The source php files are found at `./php/src/...` These must be copied to your webroot. You must also have some HTTP server with PHP execution software such as Apache or Nginx with php-fpm. 
+
+## Screenshots
+### User Inerface
+![ScreenShot1](/screenshots/1.png)
+![ScreenShot2](/screenshots/2.png)
+![ScreenShot3](/screenshots/3.png)
+![ScreenShot4](/screenshots/4.png)
+![ScreenShot11](/screenshots/11.png)
+### Admin Panel
+![ScreenShot5](/screenshots/5.png)
+![ScreenShot6](/screenshots/6.png)
+![ScreenShot7](/screenshots/7.png)
+![ScreenShot8](/screenshots/8.png)
+![ScreenShot9](/screenshots/9.png)
+![ScreenShot10](/screenshots/10.png)
