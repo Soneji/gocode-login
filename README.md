@@ -15,13 +15,16 @@ docker-compose up -d
 
 You should now have an app successfully running at `http://localhost:6989`
 
+#### MariaDB (MySQL) Data Directory
+The MariaDB data will be stored in `./mariadb/mariadb-data`
+
 #### Change port (Optional)
 
 * To change the port gocode-login runs at edit `docker-compose.yml`
 
 * Find the lines containing: `ports:  - 6989:80` and change the 6989 to any port of your choosing
 
-#### Reverse Proxy
+#### Reverse Proxy (Optional)
 
 To setup a domain name and optional SSL you can use a reverse proxy.
 
