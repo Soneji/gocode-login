@@ -1,0 +1,22 @@
+version: '2'
+services:
+  db:
+    build:
+      context: './mariadb' 
+    environment:
+      - MYSQL_ROOT_PASSWORD=gocode
+      - MYSQL_DATABASE=gocode
+      - MYSQL_USER=gocode
+      - MYSQL_PASSWORD=gocode
+    restart: always
+    volumes:
+      - ./mariadb/mariadb-data:/var/lib/mysql
+  php:
+    build:
+      context: './php'
+    volumes:
+      - ./php/src:/var/www/html
+    ports:
+      - 6989:80
+    depends_on:
+      - db
