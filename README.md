@@ -1,7 +1,7 @@
 # gocode-login
 
 ## About
-Student database system allowing the students to log in and out when they come and leave a location. Ideal to run on iPads/tablets
+Student database system with docker support allowing the students to log in and out when they come and leave a location. Ideal to run on iPads/tablets. Installation guide at end. 
 
 ## Screenshots
 ### User Inerface
