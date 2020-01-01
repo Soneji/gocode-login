@@ -1,7 +1,7 @@
 # gocode-login
 
 ## About
-Student database system with docker support allowing the students to log in and out when they come and leave a location. Ideal to run on iPads/tablets. Installation guide at end. 
+Student database system with docker support allowing the students to log in and out when they come and leave a location. Ideal to run on iPads/tablets. Installation guide at end.
 
 ## Setup
 
@@ -21,27 +21,26 @@ You should now have an app successfully running at `http://localhost:6989`
 
 * Find the lines containing: `ports:  - 6989:80` and change the 6989 to any port of your choosing
 
-#### Reverse Proxy 
+#### Reverse Proxy
 
-To setup a domain name and optional SSL you can use a reverse proxy. 
+To setup a domain name and optional SSL you can use a reverse proxy.
 
-Some reverse proxy options are: 
+Some reverse proxy options are:
 * Apache
 * Nginx
 
 I like nginx so there is an example nginx config file at `nginx-sample.conf`
 
-You can use this sample config file to help set up your reverse proxy with a letsencrypt.org certificate. 
+You can use this sample config file to help set up your reverse proxy with a letsencrypt.org certificate.
 
 ### Manual Setup
-The software can also be setup on a standard LAMP server. You will need to configure some stuff manually however. 
+The software can also be setup on a standard LAMP server. You will need to configure some stuff manually however.
 
 #### MySQL or MariaDB
-You will need to create a new table called gocode in a MySQL or MariaDB database server. You can configure the file `./php/src/dbconnect.php` must to connect to your MySQL or MariaDB server. 
+You will need to create a new table called gocode in a MySQL or MariaDB database server. You can configure the file `./php/src/dbconnect.php` must to connect to your MySQL or MariaDB server.
 
 #### PHP Source
-The source php files are found at `./php/src/...` These must be copied to your webroot. You must also have some HTTP server with PHP execution software such as Apache or Nginx with php-fpm. 
-<<<<<<< HEAD
+The source php files are found at `./php/src/...` These must be copied to your webroot. You must also have some HTTP server with PHP execution software such as Apache or Nginx with php-fpm.
 
 ## Screenshots
 ### User Inerface
@@ -57,5 +56,3 @@ The source php files are found at `./php/src/...` These must be copied to your w
 ![ScreenShot8](/screenshots/8.png)
 ![ScreenShot9](/screenshots/9.png)
 ![ScreenShot10](/screenshots/10.png)
-=======
->>>>>>> a4325318defa94b2fcbb2379f520e615b365a883
